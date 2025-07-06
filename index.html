@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>firefy-bio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="preloader">
+    <img src="files/logo-w.png" alt="firefy-bio logo" class="preloader-logo">
+  </div>
+  <div class="background"></div>
+  <nav class="liquid-navbar">
+    <div class="navbar-left">
+      <img src="files/logo-w.png" alt="logo" class="logo">
+      <span class="brand">firefy<span class="gradient-dash">-</span>bio</span>
+    </div>
+    <div class="navbar-right">
+      <a href="https://discord.gg/UtMbCuyKKA" class="nav-link">Discord</a>
+      <a href="https://discord.gg/UtMbCuyKKA" class="nav-btn">Создать</a>
+    </div>
+  </nav>
+  <main class="hero-section">
+    <h1 class="hero-title">Создавайте красивые страницы бесплатно!</h1>
+    <div class="hero-subtitle">firefy-bio — инструмент для создания красивых страниц bio-link</div>
+    <div class="hero-images">
+      <img src="files/demka.png" alt="Демо 1" class="hero-img img-tilt-left">
+      <img src="files/demka2.png" alt="Демо 2" class="hero-img img-tilt-right">
+    </div>
+  </main>
+  <footer class="footer">© 2025 firefy-bio — Все права защищены.</footer>
+  <script src="script.js"></script>
+  <script>
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        document.getElementById('preloader').style.opacity = '0';
+        setTimeout(function() {
+          document.getElementById('preloader').style.display = 'none';
+        }, 400);
+      }, 2000);
+    });
+  </script>
+</body>
+</html>
